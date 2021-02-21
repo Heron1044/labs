@@ -1,10 +1,10 @@
 ### create a user on all machines ( controller & all targets )
 
-	useradd naresh -m -d /home/naresh -s /bin/bash
+	useradd hemanth -m -d /home/hemanth -s /bin/bash
 
 ### add user to sudoers for root previliges  on all machines ( all targets )
 
-	echo -e 'naresh  ALL=(ALL)  NOPASSWD:  ALL' > /etc/sudoers.d/naresh
+	echo -e 'hemanth ALL=(ALL)  NOPASSWD:  ALL' > /etc/sudoers.d/naresh
 
 ### genereate ssh keys for above user on contrller machine 
 
